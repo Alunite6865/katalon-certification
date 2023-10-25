@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_10 Entries</name>
+   <tag></tag>
+   <elementGuidId>75d424d5-c049-406d-b0f3-4933ad3d1ee7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app-root']/div/div/div[3]/div/div[2]/div/div/div/div/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.EntriesAndPage_spanStyle__AGpxE</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1d0066b7-55d1-4fc3-a4a0-667e22d8954b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>EntriesAndPage_spanStyle__AGpxE</value>
+      <webElementGuid>a3be1590-c216-4172-a82c-deed32ac5b0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>10 Entries</value>
+      <webElementGuid>9015ed77-38e0-4b5e-90f2-0e7669c3d4cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app-root&quot;)/div[@class=&quot;MuiBox-root css-roynbj&quot;]/div[@class=&quot;MuiGrid-root css-rfnosa&quot;]/div[@class=&quot;GenericLayout-containers GenericLayout-content MuiBox-root css-1knc4po&quot;]/div[@class=&quot;MuiBox-root css-fnp9pc&quot;]/div[2]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-1cf86vr&quot;]/div[@class=&quot;MuiTableContainer-root css-1exx3ad&quot;]/div[@class=&quot;EntriesAndPage_eapContainer__9AfLQ&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container MuiGrid-direction-xs-[object Object] css-1csz1ss&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item css-1wxaqej&quot;]/div[@class=&quot;EntriesAndPage_entriesContainer__H4BYb&quot;]/span[@class=&quot;EntriesAndPage_spanStyle__AGpxE&quot;]</value>
+      <webElementGuid>fa140ed3-ed93-4b7c-99d7-0db705efc0be</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app-root']/div/div/div[3]/div/div[2]/div/div/div/div/div/div/span</value>
+      <webElementGuid>5fda0170-3916-4d3d-85f9-83a9006ba746</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Supra X 125'])[1]/following::span[3]</value>
+      <webElementGuid>aa7d0290-8421-4def-ad6c-c4ccf5c061ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Honda Vario Series'])[1]/following::span[5]</value>
+      <webElementGuid>6839d932-8c35-4638-8e18-97b7d625d2f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/span</value>
+      <webElementGuid>b67e5fda-3c01-47b3-b8d6-bd277a758110</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '10 Entries' or . = '10 Entries')]</value>
+      <webElementGuid>0be2f011-c43a-4ead-94c8-ec538665a386</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
