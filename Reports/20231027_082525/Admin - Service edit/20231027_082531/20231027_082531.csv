@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Admin - Service edit,Chrome 118.0.0.0,,,2023-10-27 08:26:21,2023-10-27 08:28:52,2m - 30.923s,PASSED
+,,,,,,,
+Test Cases/login_admin,Chrome 118.0.0.0,,,2023-10-27 08:26:23,2023-10-27 08:26:59,35.728s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-27 08:26:26,2023-10-27 08:26:42,15.982s,PASSED
+maximizeWindow(),Chrome 118.0.0.0,,,2023-10-27 08:26:42,2023-10-27 08:26:43,0.555s,PASSED
+"navigateToUrl(""https://dms-dev.cloudias79.com/login"")",Chrome 118.0.0.0,,,2023-10-27 08:26:43,2023-10-27 08:26:48,5.620s,PASSED
+"setText(findTestObject(""Object Repository/input_Silakan masuk untuk melanjutkan_r0""), ""akunadmin"")",Chrome 118.0.0.0,,,2023-10-27 08:26:48,2023-10-27 08:26:52,4.007s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input__r1""), ""fzqqY0qJjYTuJiVJRZh4ag=="")",Chrome 118.0.0.0,,,2023-10-27 08:26:52,2023-10-27 08:26:56,3.779s,PASSED
+"click(findTestObject(""Object Repository/button_Login""))",Chrome 118.0.0.0,,,2023-10-27 08:26:56,2023-10-27 08:26:59,2.495s,PASSED
+,,,,,,,
+Test Cases/admin_service_lihat,Chrome 118.0.0.0,,,2023-10-27 08:26:59,2023-10-27 08:27:35,36.483s,PASSED
+"callTestCase(findTestCase(""login_admin""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-27 08:27:01,2023-10-27 08:27:24,22.817s,PASSED
+"click(findTestObject(""admin/service/button_Service""))",Chrome 118.0.0.0,,,2023-10-27 08:27:24,2023-10-27 08:27:33,8.626s,PASSED
+"click(findTestObject(""admin/service/button_service_edit""))",Chrome 118.0.0.0,,,2023-10-27 08:27:33,2023-10-27 08:27:34,1.437s,PASSED
+"click(findTestObject(""admin/service/button_service_edit_Simpan""))",Chrome 118.0.0.0,,,2023-10-27 08:27:34,2023-10-27 08:27:35,1.138s,PASSED
+,,,,,,,
+Test Cases/admin_service_edit_batal,Chrome 118.0.0.0,,,2023-10-27 08:27:35,2023-10-27 08:28:12,36.580s,PASSED
+"callTestCase(findTestCase(""login_admin""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-27 08:27:37,2023-10-27 08:27:54,17.000s,PASSED
+"click(findTestObject(""admin/service/button_Service""))",Chrome 118.0.0.0,,,2023-10-27 08:27:54,2023-10-27 08:28:05,10.435s,PASSED
+"click(findTestObject(""admin/service/button_service_edit""))",Chrome 118.0.0.0,,,2023-10-27 08:28:05,2023-10-27 08:28:07,2.296s,PASSED
+"click(findTestObject(""admin/service/button_service_edit_Batal""))",Chrome 118.0.0.0,,,2023-10-27 08:28:07,2023-10-27 08:28:12,4.625s,PASSED
+,,,,,,,
+Test Cases/admin_service_edit_berhasil,Chrome 118.0.0.0,,,2023-10-27 08:28:12,2023-10-27 08:28:52,40.176s,PASSED
+"callTestCase(findTestCase(""login_admin""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-27 08:28:15,2023-10-27 08:28:41,25.585s,PASSED
+"click(findTestObject(""admin/service/button_Service""))",Chrome 118.0.0.0,,,2023-10-27 08:28:41,2023-10-27 08:28:50,8.584s,PASSED
+"click(findTestObject(""admin/service/button_service_edit""))",Chrome 118.0.0.0,,,2023-10-27 08:28:50,2023-10-27 08:28:51,1.449s,PASSED
+"click(findTestObject(""admin/service/button_service_edit_Simpan""))",Chrome 118.0.0.0,,,2023-10-27 08:28:51,2023-10-27 08:28:52,0.927s,PASSED

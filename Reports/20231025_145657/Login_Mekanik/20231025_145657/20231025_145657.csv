@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_Mekanik,Chrome 118.0.0.0,,,2023-10-25 14:57:25,2023-10-25 14:58:34,1m - 8.440s,PASSED
+,,,,,,,
+Test Cases/login_mekanik,Chrome 118.0.0.0,,,2023-10-25 14:57:29,2023-10-25 14:58:17,47.503s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-25 14:57:36,2023-10-25 14:57:59,22.714s,PASSED
+maximizeWindow(),Chrome 118.0.0.0,,,2023-10-25 14:57:59,2023-10-25 14:57:59,0.620s,PASSED
+"navigateToUrl(""https://dms-dev.cloudias79.com/login"")",Chrome 118.0.0.0,,,2023-10-25 14:57:59,2023-10-25 14:58:06,6.699s,PASSED
+"setText(findTestObject(""Page_DMS_login/input_login_username""), ""akunmekanik"")",Chrome 118.0.0.0,,,2023-10-25 14:58:06,2023-10-25 14:58:10,3.490s,PASSED
+"setEncryptedText(findTestObject(""Page_DMS_login/input_login_password""), ""fzqqY0qJjYTuJiVJRZh4ag=="")",Chrome 118.0.0.0,,,2023-10-25 14:58:10,2023-10-25 14:58:14,4.231s,PASSED
+"click(findTestObject(""Page_DMS_login/button_Login""))",Chrome 118.0.0.0,,,2023-10-25 14:58:14,2023-10-25 14:58:17,3.089s,PASSED
+,,,,,,,
+Test Cases/logout_admin,Chrome 118.0.0.0,,,2023-10-25 14:58:17,2023-10-25 14:58:34,16.732s,PASSED
+"click(findTestObject(""admin/button_icon profile""))",Chrome 118.0.0.0,,,2023-10-25 14:58:19,2023-10-25 14:58:25,5.636s,PASSED
+delay(3),Chrome 118.0.0.0,,,2023-10-25 14:58:25,2023-10-25 14:58:28,3.202s,PASSED
+"waitForElementPresent(findTestObject(""admin/button_Log Out""), 3)",Chrome 118.0.0.0,,,2023-10-25 14:58:28,2023-10-25 14:58:29,0.989s,PASSED
+"waitForElementClickable(findTestObject(""admin/button_Log Out""), 3)",Chrome 118.0.0.0,,,2023-10-25 14:58:29,2023-10-25 14:58:31,2.204s,PASSED
+"click(findTestObject(""admin/button_Log Out""))",Chrome 118.0.0.0,,,2023-10-25 14:58:31,2023-10-25 14:58:34,2.255s,PASSED

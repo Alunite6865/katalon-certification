@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Tipe Kendaraan,Chrome 118.0.0.0,,,2023-10-26 10:07:21,2023-10-26 10:10:17,2m - 55.396s,PASSED
+,,,,,,,
+Test Cases/login_admin,Chrome 118.0.0.0,,,2023-10-26 10:07:25,2023-10-26 10:08:22,56.991s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-26 10:07:32,2023-10-26 10:08:05,32.981s,PASSED
+maximizeWindow(),Chrome 118.0.0.0,,,2023-10-26 10:08:05,2023-10-26 10:08:06,1.151s,PASSED
+"navigateToUrl(""https://dms-dev.cloudias79.com/login"")",Chrome 118.0.0.0,,,2023-10-26 10:08:06,2023-10-26 10:08:12,5.790s,PASSED
+"setText(findTestObject(""Object Repository/input_Silakan masuk untuk melanjutkan_r0""), ""akunadmin"")",Chrome 118.0.0.0,,,2023-10-26 10:08:12,2023-10-26 10:08:18,5.692s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input__r1""), ""fzqqY0qJjYTuJiVJRZh4ag=="")",Chrome 118.0.0.0,,,2023-10-26 10:08:18,2023-10-26 10:08:20,2.169s,PASSED
+"click(findTestObject(""Object Repository/button_Login""))",Chrome 118.0.0.0,,,2023-10-26 10:08:20,2023-10-26 10:08:22,1.860s,PASSED
+,,,,,,,
+Test Cases/admin_lihat_daftar_tipe,Chrome 118.0.0.0,,,2023-10-26 10:08:22,2023-10-26 10:08:45,23.209s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar tipe kendaraan/button_Daftar Tipe Kendaraan""))",Chrome 118.0.0.0,,,2023-10-26 10:08:26,2023-10-26 10:08:45,19.476s,PASSED
+,,,,,,,
+Test Cases/admin_search_tipe,Chrome 118.0.0.0,,,2023-10-26 10:08:45,2023-10-26 10:09:12,27.091s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar tipe kendaraan/button_Daftar Tipe Kendaraan""))",Chrome 118.0.0.0,,,2023-10-26 10:08:51,2023-10-26 10:09:01,10.243s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar tipe kendaraan/search_tipe kendaraan""))",Chrome 118.0.0.0,,,2023-10-26 10:09:01,2023-10-26 10:09:05,3.325s,PASSED
+"setText(findTestObject(""admin/kendaraan/daftar tipe kendaraan/search_tipe kendaraan""), ""h"")",Chrome 118.0.0.0,,,2023-10-26 10:09:05,2023-10-26 10:09:12,7.407s,PASSED
+,,,,,,,
+Test Cases/admin_tambah_tipe,Chrome 118.0.0.0,,,2023-10-26 10:09:12,2023-10-26 10:09:28,16.129s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar tipe kendaraan/button_Tambah Tipe Kendaraan""))",Chrome 118.0.0.0,,,2023-10-26 10:09:17,2023-10-26 10:09:21,4.722s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar tipe kendaraan/input_Tambah Tipe Kendaraan_rc""))",Chrome 118.0.0.0,,,2023-10-26 10:09:21,2023-10-26 10:09:24,3.128s,PASSED
+"setText(findTestObject(""admin/kendaraan/daftar tipe kendaraan/input_Tambah Tipe Kendaraan_rc""), ""AQ"")",Chrome 118.0.0.0,,,2023-10-26 10:09:24,2023-10-26 10:09:27,2.556s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar tipe kendaraan/button_Tambah Tipe Kendaraan_Batal""))",Chrome 118.0.0.0,,,2023-10-26 10:09:27,2023-10-26 10:09:28,1.320s,PASSED
+,,,,,,,
+Test Cases/admin_edit_tipe,Chrome 118.0.0.0,,,2023-10-26 10:09:28,2023-10-26 10:09:41,13.055s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar tipe kendaraan/button_edit tipe""))",Chrome 118.0.0.0,,,2023-10-26 10:09:32,2023-10-26 10:09:35,3.153s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar tipe kendaraan/input_Edit Tipe Kendaraan_rd""))",Chrome 118.0.0.0,,,2023-10-26 10:09:35,2023-10-26 10:09:37,2.379s,PASSED
+"setText(findTestObject(""admin/kendaraan/daftar tipe kendaraan/input_Edit Tipe Kendaraan_rd""), ""Yamaha"")",Chrome 118.0.0.0,,,2023-10-26 10:09:37,2023-10-26 10:09:40,3.025s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar tipe kendaraan/button_Edit Tipe Kendaraan_Batal""))",Chrome 118.0.0.0,,,2023-10-26 10:09:40,2023-10-26 10:09:41,1.333s,PASSED
+,,,,,,,
+Test Cases/admin_delete_tipe,Chrome 118.0.0.0,,,2023-10-26 10:09:41,2023-10-26 10:09:48,6.647s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar tipe kendaraan/button_delete tipe""))",Chrome 118.0.0.0,,,2023-10-26 10:09:45,2023-10-26 10:09:47,1.538s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar tipe kendaraan/button_Hapus Tipe Kendaraan_Batal""))",Chrome 118.0.0.0,,,2023-10-26 10:09:47,2023-10-26 10:09:48,1.435s,PASSED
+,,,,,,,
+Test Cases/logout_admin,Chrome 118.0.0.0,,,2023-10-26 10:09:48,2023-10-26 10:10:17,28.618s,PASSED
+"click(findTestObject(""admin/button_icon profile""))",Chrome 118.0.0.0,,,2023-10-26 10:09:52,2023-10-26 10:09:54,2.498s,PASSED
+delay(3),Chrome 118.0.0.0,,,2023-10-26 10:09:54,2023-10-26 10:09:58,3.230s,PASSED
+"waitForElementPresent(findTestObject(""admin/button_Log Out""), 3)",Chrome 118.0.0.0,,,2023-10-26 10:09:58,2023-10-26 10:10:00,2.487s,PASSED
+"waitForElementClickable(findTestObject(""admin/button_Log Out""), 3)",Chrome 118.0.0.0,,,2023-10-26 10:10:00,2023-10-26 10:10:04,3.539s,PASSED
+"click(findTestObject(""admin/button_Log Out""))",Chrome 118.0.0.0,,,2023-10-26 10:10:04,2023-10-26 10:10:17,13.172s,PASSED

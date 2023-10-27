@@ -17,21 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://dms-dev.cloudias79.com/login')
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('Object Repository/input_Silakan masuk untuk melanjutkan_r0 (1)'), 'akunadmin')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/input__r1 (1)'), 'fzqqY0qJjYTuJiVJRZh4ag==')
-
-WebUI.click(findTestObject('Object Repository/button_Login (1)'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/select_151015All'), '10', true)
-
-WebUI.verifyElementText(findTestObject('Object Repository/span_10 Entries'), '10 Entries')
-
-WebUI.verifyElementText(findTestObject('Object Repository/td_10'), '10')
+WebUI.click(findTestObject('no antrian/button_Simpan  Cetak Nomor Antrian'))
 

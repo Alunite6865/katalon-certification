@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Warna Kendaraan" time="513.544" tests="7" failures="0" errors="0">
+   <testsuite name="Warna Kendaraan" tests="7" failures="0" errors="0" time="513.544" skipped="0" timestamp="2023-10-25 14:54:39" hostname="THINKPAD - DESKTOP-KQUK8GU" id="Test Suites/Warna Kendaraan">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\THINKPAD\\git\\katalon-certification\\Reports\\20231025_145416\\Warna Kendaraan\\20231025_145416"/>
+         <property name="logFiles" value="C:\\Users\\THINKPAD\\git\\katalon-certification\\Reports\\20231025_145416\\Warna Kendaraan\\20231025_145416\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="THINKPAD - DESKTOP-KQUK8GU"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 118.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.109"/>
+         <property name="sessionId" value="a342b0e0cc588e508684f1e658714fb2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login_admin" time="26.411" classname="Test Cases/login_admin" status="PASSED">
+         <system-out><![CDATA[2023-10-25 14:54:43 - [TEST_CASE][PASSED] - Test Cases/login_admin: Test Cases/login_admin
+
+2023-10-25 14:54:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-25 14:54:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-25 14:54:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-25 14:55:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-25 14:55:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-10-25 14:55:00 - [MESSAGE][PASSED] - Current window maximized
+
+2023-10-25 14:55:00 - [TEST_STEP][PASSED] - navigateToUrl("https://dms-dev.cloudias79.com/login"): Navigate to 'https://dms-dev.cloudias79.com/login' successfully
+
+2023-10-25 14:55:02 - [MESSAGE][PASSED] - Navigate to 'https://dms-dev.cloudias79.com/login' successfully
+
+2023-10-25 14:55:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Silakan masuk untuk melanjutkan_r0"), "akunadmin"): Text 'akunadmin' is set on object 'Object Repository/input_Silakan masuk untuk melanjutkan_r0'
+
+2023-10-25 14:55:06 - [MESSAGE][PASSED] - Text 'akunadmin' is set on object 'Object Repository/input_Silakan masuk untuk melanjutkan_r0'
+
+2023-10-25 14:55:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/input__r1"), "fzqqY0qJjYTuJiVJRZh4ag=="): Text ****** has been set on object 'Object Repository/input__r1'
+
+2023-10-25 14:55:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input__r1'
+
+2023-10-25 14:55:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_Login")): Object: 'Object Repository/button_Login' is clicked on
+
+2023-10-25 14:55:10 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/admin_lihat_daftar_warna" time="8.353" classname="Test Cases/admin_lihat_daftar_warna" status="PASSED">
+         <system-out><![CDATA[2023-10-25 14:55:10 - [TEST_CASE][PASSED] - Test Cases/admin_lihat_daftar_warna: Test Cases/admin_lihat_daftar_warna
+
+2023-10-25 14:55:13 - [TEST_STEP][PASSED] - click(findTestObject("admin/kendaraan/daftar warna kendaraan/button_Daftar Warna Kendaraan")): Object: 'Object Repository/admin/kendaraan/daftar warna kendaraan/button_Daftar Warna Kendaraan' is clicked on
+
+2023-10-25 14:55:18 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/kendaraan/daftar warna kendaraan/button_Daftar Warna Kendaraan' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/admin_search_warna" time="7.396" classname="Test Cases/admin_search_warna" status="PASSED">
+         <system-out><![CDATA[2023-10-25 14:55:18 - [TEST_CASE][PASSED] - Test Cases/admin_search_warna: Test Cases/admin_search_warna
+
+2023-10-25 14:55:20 - [TEST_STEP][PASSED] - click(findTestObject("admin/kendaraan/daftar warna kendaraan/button_Daftar Warna Kendaraan")): Object: 'Object Repository/admin/kendaraan/daftar warna kendaraan/button_Daftar Warna Kendaraan' is clicked on
+
+2023-10-25 14:55:21 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/kendaraan/daftar warna kendaraan/button_Daftar Warna Kendaraan' is clicked on
+
+2023-10-25 14:55:21 - [TEST_STEP][PASSED] - click(findTestObject("admin/kendaraan/daftar warna kendaraan/input_search Daftar Dealer Kendaraan")): Object: 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_search Daftar Dealer Kendaraan' is clicked on
+
+2023-10-25 14:55:23 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_search Daftar Dealer Kendaraan' is clicked on
+
+2023-10-25 14:55:23 - [TEST_STEP][PASSED] - setText(findTestObject("admin/kendaraan/daftar warna kendaraan/input_search Daftar Dealer Kendaraan"), "h"): Text 'h' is set on object 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_search Daftar Dealer Kendaraan'
+
+2023-10-25 14:55:25 - [MESSAGE][PASSED] - Text 'h' is set on object 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_search Daftar Dealer Kendaraan']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/admin_tambah_warna" time="258.032" classname="Test Cases/admin_tambah_warna" status="PASSED">
+         <system-out><![CDATA[2023-10-25 14:55:25 - [TEST_CASE][PASSED] - Test Cases/admin_tambah_warna: Test Cases/admin_tambah_warna
+
+2023-10-25 14:55:27 - [TEST_STEP][PASSED] - click(findTestObject("admin/kendaraan/daftar warna kendaraan/button_Daftar Warna Kendaraan")): Object: 'Object Repository/admin/kendaraan/daftar warna kendaraan/button_Daftar Warna Kendaraan' is clicked on
+
+2023-10-25 14:55:30 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/kendaraan/daftar warna kendaraan/button_Daftar Warna Kendaraan' is clicked on
+
+2023-10-25 14:55:30 - [TEST_STEP][PASSED] - click(findTestObject("admin/kendaraan/daftar warna kendaraan/button_Tambah Warna Kendaraan")): Object: 'Object Repository/admin/kendaraan/daftar warna kendaraan/button_Tambah Warna Kendaraan' is clicked on
+
+2023-10-25 14:55:31 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/kendaraan/daftar warna kendaraan/button_Tambah Warna Kendaraan' is clicked on
+
+2023-10-25 14:55:31 - [TEST_STEP][PASSED] - click(findTestObject("admin/kendaraan/daftar warna kendaraan/input_Tambah Warna Kendaraan_Kode Warna")): Object: 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Tambah Warna Kendaraan_Kode Warna' is clicked on
+
+2023-10-25 14:56:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id=':rh:']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-10-25 14:56:03 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Tambah Warna Kendaraan_Kode Warna'. Try using Self-healing.
+
+2023-10-25 14:56:07 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Tambah Warna Kendaraan_Kode Warna' was broken. Propose an alternative one: '//div[3]/div/div/div/div/input'.
+
+2023-10-25 14:56:19 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Tambah Warna Kendaraan_Kode Warna' is clicked on
+
+2023-10-25 14:56:19 - [TEST_STEP][PASSED] - setText(findTestObject("admin/kendaraan/daftar warna kendaraan/input_Tambah Warna Kendaraan_Kode Warna"), "AQ"): Text 'AQ' is set on object 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Tambah Warna Kendaraan_Kode Warna'
+
+2023-10-25 14:56:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id=':rh:']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-10-25 14:56:55 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Tambah Warna Kendaraan_Kode Warna'. Try using Self-healing.
+
+2023-10-25 14:56:58 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Tambah Warna Kendaraan_Kode Warna' was broken. Propose an alternative one: '//div[3]/div/div/div/div/input'.
+
+2023-10-25 14:57:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id=':rh:']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-10-25 14:57:31 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Tambah Warna Kendaraan_Kode Warna'. Try using Self-healing.
+
+2023-10-25 14:57:32 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Tambah Warna Kendaraan_Kode Warna' was broken. Propose an alternative one: '//div[3]/div/div/div/div/input'.
+
+2023-10-25 14:57:33 - [MESSAGE][PASSED] - Text 'AQ' is set on object 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Tambah Warna Kendaraan_Kode Warna'
+
+2023-10-25 14:57:33 - [TEST_STEP][PASSED] - click(findTestObject("admin/kendaraan/daftar warna kendaraan/input_Tambah Warna Kendaraan_Warna Kendaraan")): Object: 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Tambah Warna Kendaraan_Warna Kendaraan' is clicked on
+
+2023-10-25 14:58:05 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id=':ri:']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-10-25 14:58:05 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Tambah Warna Kendaraan_Warna Kendaraan'. Try using Self-healing.
+
+2023-10-25 14:58:07 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Tambah Warna Kendaraan_Warna Kendaraan' was broken. Propose an alternative one: '//div[2]/div/input'.
+
+2023-10-25 14:58:07 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Tambah Warna Kendaraan_Warna Kendaraan' is clicked on
+
+2023-10-25 14:58:07 - [TEST_STEP][PASSED] - setText(findTestObject("admin/kendaraan/daftar warna kendaraan/input_Tambah Warna Kendaraan_Warna Kendaraan"), "Aquamarine"): Text 'Aquamarine' is set on object 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Tambah Warna Kendaraan_Warna Kendaraan'
+
+2023-10-25 14:58:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id=':ri:']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-10-25 14:58:39 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Tambah Warna Kendaraan_Warna Kendaraan'. Try using Self-healing.
+
+2023-10-25 14:58:39 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Tambah Warna Kendaraan_Warna Kendaraan' was broken. Propose an alternative one: '//div[2]/div/input'.
+
+2023-10-25 14:59:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id=':ri:']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-10-25 14:59:11 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Tambah Warna Kendaraan_Warna Kendaraan'. Try using Self-healing.
+
+2023-10-25 14:59:11 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Tambah Warna Kendaraan_Warna Kendaraan' was broken. Propose an alternative one: '//div[2]/div/input'.
+
+2023-10-25 14:59:11 - [MESSAGE][PASSED] - Text 'Aquamarine' is set on object 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Tambah Warna Kendaraan_Warna Kendaraan'
+
+2023-10-25 14:59:11 - [TEST_STEP][PASSED] - click(findTestObject("admin/kendaraan/daftar warna kendaraan/button_Tambah Warna Kendaraan_Batal")): Object: 'Object Repository/admin/kendaraan/daftar warna kendaraan/button_Tambah Warna Kendaraan_Batal' is clicked on
+
+2023-10-25 14:59:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@type='button'])[29]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-10-25 14:59:43 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/admin/kendaraan/daftar warna kendaraan/button_Tambah Warna Kendaraan_Batal'. Try using Self-healing.
+
+2023-10-25 14:59:43 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/admin/kendaraan/daftar warna kendaraan/button_Tambah Warna Kendaraan_Batal' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='​'])[3]/following::button[1]'.
+
+2023-10-25 14:59:43 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/kendaraan/daftar warna kendaraan/button_Tambah Warna Kendaraan_Batal' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/admin_edit_warna" time="195.484" classname="Test Cases/admin_edit_warna" status="PASSED">
+         <system-out><![CDATA[2023-10-25 14:59:43 - [TEST_CASE][PASSED] - Test Cases/admin_edit_warna: Test Cases/admin_edit_warna
+
+2023-10-25 14:59:45 - [TEST_STEP][PASSED] - click(findTestObject("admin/kendaraan/daftar warna kendaraan/button_Daftar Warna Kendaraan")): Object: 'Object Repository/admin/kendaraan/daftar warna kendaraan/button_Daftar Warna Kendaraan' is clicked on
+
+2023-10-25 14:59:46 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/kendaraan/daftar warna kendaraan/button_Daftar Warna Kendaraan' is clicked on
+
+2023-10-25 14:59:46 - [TEST_STEP][PASSED] - click(findTestObject("admin/kendaraan/daftar warna kendaraan/button_Edit warna kendaraan")): Object: 'Object Repository/admin/kendaraan/daftar warna kendaraan/button_Edit warna kendaraan' is clicked on
+
+2023-10-25 14:59:47 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/kendaraan/daftar warna kendaraan/button_Edit warna kendaraan' is clicked on
+
+2023-10-25 14:59:47 - [TEST_STEP][PASSED] - click(findTestObject("admin/kendaraan/daftar warna kendaraan/input_Edit Warna Kendaraan_kode warna")): Object: 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Edit Warna Kendaraan_kode warna' is clicked on
+
+2023-10-25 15:00:19 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id=':rj:']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-10-25 15:00:19 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Edit Warna Kendaraan_kode warna'. Try using Self-healing.
+
+2023-10-25 15:00:19 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Edit Warna Kendaraan_kode warna' was broken. Propose an alternative one: '//div[3]/div/div/div/div/input'.
+
+2023-10-25 15:00:19 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Edit Warna Kendaraan_kode warna' is clicked on
+
+2023-10-25 15:00:19 - [TEST_STEP][PASSED] - setText(findTestObject("admin/kendaraan/daftar warna kendaraan/input_Edit Warna Kendaraan_kode warna"), "CY"): Text 'CY' is set on object 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Edit Warna Kendaraan_kode warna'
+
+2023-10-25 15:00:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id=':rj:']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-10-25 15:00:51 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Edit Warna Kendaraan_kode warna'. Try using Self-healing.
+
+2023-10-25 15:00:51 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Edit Warna Kendaraan_kode warna' was broken. Propose an alternative one: '//div[3]/div/div/div/div/input'.
+
+2023-10-25 15:01:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id=':rj:']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-10-25 15:01:22 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Edit Warna Kendaraan_kode warna'. Try using Self-healing.
+
+2023-10-25 15:01:23 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Edit Warna Kendaraan_kode warna' was broken. Propose an alternative one: '//div[3]/div/div/div/div/input'.
+
+2023-10-25 15:01:23 - [MESSAGE][PASSED] - Text 'CY' is set on object 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Edit Warna Kendaraan_kode warna'
+
+2023-10-25 15:01:23 - [TEST_STEP][PASSED] - click(findTestObject("admin/kendaraan/daftar warna kendaraan/input_Edit Warna Kendaraan_warna kendaraan")): Object: 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Edit Warna Kendaraan_warna kendaraan' is clicked on
+
+2023-10-25 15:01:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id=':rk:']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-10-25 15:01:54 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Edit Warna Kendaraan_warna kendaraan'. Try using Self-healing.
+
+2023-10-25 15:01:55 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Edit Warna Kendaraan_warna kendaraan' was broken. Propose an alternative one: '//div[2]/div/input'.
+
+2023-10-25 15:01:55 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Edit Warna Kendaraan_warna kendaraan' is clicked on
+
+2023-10-25 15:01:55 - [TEST_STEP][PASSED] - setText(findTestObject("admin/kendaraan/daftar warna kendaraan/input_Edit Warna Kendaraan_warna kendaraan"), "Cyan"): Text 'Cyan' is set on object 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Edit Warna Kendaraan_warna kendaraan'
+
+2023-10-25 15:02:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id=':rk:']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-10-25 15:02:26 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Edit Warna Kendaraan_warna kendaraan'. Try using Self-healing.
+
+2023-10-25 15:02:27 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Edit Warna Kendaraan_warna kendaraan' was broken. Propose an alternative one: '//div[2]/div/input'.
+
+2023-10-25 15:02:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id=':rk:']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-10-25 15:02:58 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Edit Warna Kendaraan_warna kendaraan'. Try using Self-healing.
+
+2023-10-25 15:02:58 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Edit Warna Kendaraan_warna kendaraan' was broken. Propose an alternative one: '//div[2]/div/input'.
+
+2023-10-25 15:02:58 - [MESSAGE][PASSED] - Text 'Cyan' is set on object 'Object Repository/admin/kendaraan/daftar warna kendaraan/input_Edit Warna Kendaraan_warna kendaraan'
+
+2023-10-25 15:02:58 - [TEST_STEP][PASSED] - click(findTestObject("admin/kendaraan/daftar warna kendaraan/button_Edit Warna Kendaraan_Batal")): Object: 'Object Repository/admin/kendaraan/daftar warna kendaraan/button_Edit Warna Kendaraan_Batal' is clicked on
+
+2023-10-25 15:02:59 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/kendaraan/daftar warna kendaraan/button_Edit Warna Kendaraan_Batal' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/admin_delete_warna" time="4.51" classname="Test Cases/admin_delete_warna" status="PASSED">
+         <system-out><![CDATA[2023-10-25 15:02:59 - [TEST_CASE][PASSED] - Test Cases/admin_delete_warna: Test Cases/admin_delete_warna
+
+2023-10-25 15:03:00 - [TEST_STEP][PASSED] - click(findTestObject("admin/kendaraan/daftar warna kendaraan/button_Daftar Warna Kendaraan")): Object: 'Object Repository/admin/kendaraan/daftar warna kendaraan/button_Daftar Warna Kendaraan' is clicked on
+
+2023-10-25 15:03:01 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/kendaraan/daftar warna kendaraan/button_Daftar Warna Kendaraan' is clicked on
+
+2023-10-25 15:03:01 - [TEST_STEP][PASSED] - click(findTestObject("admin/kendaraan/daftar warna kendaraan/button_hapus warna kendaraan")): Object: 'Object Repository/admin/kendaraan/daftar warna kendaraan/button_hapus warna kendaraan' is clicked on
+
+2023-10-25 15:03:02 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/kendaraan/daftar warna kendaraan/button_hapus warna kendaraan' is clicked on
+
+2023-10-25 15:03:02 - [TEST_STEP][PASSED] - click(findTestObject("admin/kendaraan/daftar warna kendaraan/button_hapus warna kendaraan_Batal")): Object: 'Object Repository/admin/kendaraan/daftar warna kendaraan/button_hapus warna kendaraan_Batal' is clicked on
+
+2023-10-25 15:03:03 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/kendaraan/daftar warna kendaraan/button_hapus warna kendaraan_Batal' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/logout_admin" time="9.258" classname="Test Cases/logout_admin" status="PASSED">
+         <system-out><![CDATA[2023-10-25 15:03:03 - [TEST_CASE][PASSED] - Test Cases/logout_admin: Test Cases/logout_admin
+
+2023-10-25 15:03:05 - [TEST_STEP][PASSED] - click(findTestObject("admin/button_icon profile")): Object: 'Object Repository/admin/button_icon profile' is clicked on
+
+2023-10-25 15:03:06 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/button_icon profile' is clicked on
+
+2023-10-25 15:03:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-10-25 15:03:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-10-25 15:03:09 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("admin/button_Log Out"), 3): Object 'Object Repository/admin/button_Log Out' is present
+
+2023-10-25 15:03:09 - [MESSAGE][PASSED] - Object 'Object Repository/admin/button_Log Out' is present
+
+2023-10-25 15:03:09 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("admin/button_Log Out"), 3): Object 'Object Repository/admin/button_Log Out' is clickable
+
+2023-10-25 15:03:10 - [MESSAGE][PASSED] - Object 'Object Repository/admin/button_Log Out' is clickable
+
+2023-10-25 15:03:10 - [TEST_STEP][PASSED] - click(findTestObject("admin/button_Log Out")): Object: 'Object Repository/admin/button_Log Out' is clicked on
+
+2023-10-25 15:03:13 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/button_Log Out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-10-25 14:54:39 - [TEST_SUITE][PASSED] - Warna Kendaraan: Test Cases/logout_admin]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

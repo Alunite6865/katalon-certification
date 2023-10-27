@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_Admin,Chrome 118.0.0.0,,,2023-10-26 09:58:12,2023-10-26 10:04:13,6m - 0.606s,PASSED
+,,,,,,,
+Test Cases/login_admin,Chrome 118.0.0.0,,,2023-10-26 09:58:19,2023-10-26 10:00:45,2m - 26.600s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-26 09:58:27,2023-10-26 09:58:59,31.921s,PASSED
+maximizeWindow(),Chrome 118.0.0.0,,,2023-10-26 09:58:59,2023-10-26 09:59:00,1.099s,PASSED
+"navigateToUrl(""https://dms-dev.cloudias79.com/login"")",Chrome 118.0.0.0,,,2023-10-26 09:59:00,2023-10-26 09:59:04,3.513s,PASSED
+"setText(findTestObject(""Object Repository/input_Silakan masuk untuk melanjutkan_r0""), ""akunadmin"")",Chrome 118.0.0.0,,,2023-10-26 09:59:04,2023-10-26 10:00:18,1m - 14.564s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input__r1""), ""fzqqY0qJjYTuJiVJRZh4ag=="")",Chrome 118.0.0.0,,,2023-10-26 10:00:18,2023-10-26 10:00:37,18.214s,PASSED
+"click(findTestObject(""Object Repository/button_Login""))",Chrome 118.0.0.0,,,2023-10-26 10:00:37,2023-10-26 10:00:45,8.855s,PASSED
+,,,,,,,
+Test Cases/logout_admin,Chrome 118.0.0.0,,,2023-10-26 10:00:46,2023-10-26 10:04:13,3m - 27.584s,PASSED
+"click(findTestObject(""admin/button_icon profile""))",Chrome 118.0.0.0,,,2023-10-26 10:01:09,2023-10-26 10:01:41,31.855s,PASSED
+delay(3),Chrome 118.0.0.0,,,2023-10-26 10:01:41,2023-10-26 10:01:46,4.983s,PASSED
+"waitForElementPresent(findTestObject(""admin/button_Log Out""), 3)",Chrome 118.0.0.0,,,2023-10-26 10:01:46,2023-10-26 10:02:07,21.248s,PASSED
+"waitForElementClickable(findTestObject(""admin/button_Log Out""), 3)",Chrome 118.0.0.0,,,2023-10-26 10:02:07,2023-10-26 10:02:40,33.451s,PASSED
+"click(findTestObject(""admin/button_Log Out""))",Chrome 118.0.0.0,,,2023-10-26 10:02:40,2023-10-26 10:04:13,1m - 32.829s,PASSED

@@ -1,3 +1,84 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/admin/kendaraan/daftar warna kendaraan/input_Tambah Warna Kendaraan_Kode Warna",
+      "brokenLocator": "//input[@id\u003d\u0027:rh:\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/div/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/admin/kendaraan/daftar warna kendaraan/input_Tambah Warna Kendaraan_Kode Warna_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/admin/kendaraan/daftar dealer kendaraan/input_Tambah Dealer Penjualan Kendaraan",
+      "brokenLocator": "//input[@id\u003d\u0027:ro:\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/div/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/admin/kendaraan/daftar dealer kendaraan/input_Tambah Dealer Penjualan Kendaraan_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/admin/kendaraan/daftar warna kendaraan/input_Tambah Warna Kendaraan_Warna Kendaraan",
+      "brokenLocator": "//input[@id\u003d\u0027:ri:\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/admin/kendaraan/daftar warna kendaraan/input_Tambah Warna Kendaraan_Warna Kendaraan_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/admin/kendaraan/daftar dealer kendaraan/input_Edit Dealer Penjualan Kendaraan",
+      "brokenLocator": "//input[@id\u003d\u0027:rp:\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/div/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/admin/kendaraan/daftar dealer kendaraan/input_Edit Dealer Penjualan Kendaraan_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/admin/kendaraan/daftar warna kendaraan/button_Tambah Warna Kendaraan_Batal",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[29]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027​\u0027])[3]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/admin/kendaraan/daftar warna kendaraan/button_Tambah Warna Kendaraan_Batal_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/admin/kendaraan/daftar warna kendaraan/input_Edit Warna Kendaraan_kode warna",
+      "brokenLocator": "//input[@id\u003d\u0027:rj:\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/div/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/admin/kendaraan/daftar warna kendaraan/input_Edit Warna Kendaraan_kode warna_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/admin/kendaraan/daftar warna kendaraan/input_Edit Warna Kendaraan_warna kendaraan",
+      "brokenLocator": "//input[@id\u003d\u0027:rk:\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/admin/kendaraan/daftar warna kendaraan/input_Edit Warna Kendaraan_warna kendaraan_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/admin/service/button_service_deactivate_Non-aktif",
+      "brokenLocator": "//button[@id\u003d\u0027:rg:\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Batal\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/admin/service/button_service_deactivate_Non-aktif_neighbor.png"
+    }
+  ]
 }

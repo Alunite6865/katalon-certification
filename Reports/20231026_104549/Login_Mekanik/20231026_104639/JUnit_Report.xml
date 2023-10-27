@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login_Mekanik" time="105.128" tests="2" failures="0" errors="0">
+   <testsuite name="Login_Mekanik" tests="2" failures="0" errors="0" time="105.128" skipped="0" timestamp="2023-10-26 10:48:05" hostname="THINKPAD - DESKTOP-KQUK8GU" id="Test Suites/Login_Mekanik">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\THINKPAD\\git\\katalon-certification\\Reports\\20231026_104549\\Login_Mekanik\\20231026_104639"/>
+         <property name="logFiles" value="C:\\Users\\THINKPAD\\git\\katalon-certification\\Reports\\20231026_104549\\Login_Mekanik\\20231026_104639\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="THINKPAD - DESKTOP-KQUK8GU"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 118.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.109"/>
+         <property name="sessionId" value="377403be28cca82c207646519c7ae792"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login_mekanik" time="49.811" classname="Test Cases/login_mekanik" status="PASSED">
+         <system-out><![CDATA[2023-10-26 10:48:09 - [TEST_CASE][PASSED] - Test Cases/login_mekanik: Test Cases/login_mekanik
+
+2023-10-26 10:48:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-26 10:48:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-26 10:48:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-26 10:48:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-26 10:48:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-10-26 10:48:31 - [MESSAGE][PASSED] - Current window maximized
+
+2023-10-26 10:48:31 - [TEST_STEP][PASSED] - navigateToUrl("https://dms-dev.cloudias79.com/login"): Navigate to 'https://dms-dev.cloudias79.com/login' successfully
+
+2023-10-26 10:48:40 - [MESSAGE][PASSED] - Navigate to 'https://dms-dev.cloudias79.com/login' successfully
+
+2023-10-26 10:48:40 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DMS_login/input_login_username"), "akunmekanik"): Text 'akunmekanik' is set on object 'Object Repository/Page_DMS_login/input_login_username'
+
+2023-10-26 10:48:49 - [MESSAGE][PASSED] - Text 'akunmekanik' is set on object 'Object Repository/Page_DMS_login/input_login_username'
+
+2023-10-26 10:48:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_DMS_login/input_login_password"), "fzqqY0qJjYTuJiVJRZh4ag=="): Text ****** has been set on object 'Object Repository/Page_DMS_login/input_login_password'
+
+2023-10-26 10:48:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_DMS_login/input_login_password'
+
+2023-10-26 10:48:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_DMS_login/button_Login")): Object: 'Object Repository/Page_DMS_login/button_Login' is clicked on
+
+2023-10-26 10:48:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DMS_login/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/logout_admin" time="51.155" classname="Test Cases/logout_admin" status="PASSED">
+         <system-out><![CDATA[2023-10-26 10:48:59 - [TEST_CASE][PASSED] - Test Cases/logout_admin: Test Cases/logout_admin
+
+2023-10-26 10:49:04 - [TEST_STEP][PASSED] - click(findTestObject("admin/button_icon profile")): Object: 'Object Repository/admin/button_icon profile' is clicked on
+
+2023-10-26 10:49:15 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/button_icon profile' is clicked on
+
+2023-10-26 10:49:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-10-26 10:49:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-10-26 10:49:18 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("admin/button_Log Out"), 3): Object 'Object Repository/admin/button_Log Out' is present
+
+2023-10-26 10:49:45 - [MESSAGE][PASSED] - Object 'Object Repository/admin/button_Log Out' is present
+
+2023-10-26 10:49:45 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("admin/button_Log Out"), 3): Object 'Object Repository/admin/button_Log Out' is clickable
+
+2023-10-26 10:49:47 - [MESSAGE][PASSED] - Object 'Object Repository/admin/button_Log Out' is clickable
+
+2023-10-26 10:49:47 - [TEST_STEP][PASSED] - click(findTestObject("admin/button_Log Out")): Object: 'Object Repository/admin/button_Log Out' is clicked on
+
+2023-10-26 10:49:50 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/button_Log Out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-10-26 10:48:05 - [TEST_SUITE][PASSED] - Login_Mekanik: Test Cases/logout_admin]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

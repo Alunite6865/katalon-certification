@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Dealer Kendaraan,Chrome 118.0.0.0,,,2023-10-26 10:28:04,2023-10-26 10:32:06,4m - 2.543s,PASSED
+,,,,,,,
+Test Cases/login_admin,Chrome 118.0.0.0,,,2023-10-26 10:28:05,2023-10-26 10:28:48,42.812s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-26 10:28:08,2023-10-26 10:28:22,13.609s,PASSED
+maximizeWindow(),Chrome 118.0.0.0,,,2023-10-26 10:28:22,2023-10-26 10:28:22,0.647s,PASSED
+"navigateToUrl(""https://dms-dev.cloudias79.com/login"")",Chrome 118.0.0.0,,,2023-10-26 10:28:22,2023-10-26 10:28:24,1.205s,PASSED
+"setText(findTestObject(""Object Repository/input_Silakan masuk untuk melanjutkan_r0""), ""akunadmin"")",Chrome 118.0.0.0,,,2023-10-26 10:28:24,2023-10-26 10:28:44,20.208s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input__r1""), ""fzqqY0qJjYTuJiVJRZh4ag=="")",Chrome 118.0.0.0,,,2023-10-26 10:28:44,2023-10-26 10:28:45,1.752s,PASSED
+"click(findTestObject(""Object Repository/button_Login""))",Chrome 118.0.0.0,,,2023-10-26 10:28:46,2023-10-26 10:28:48,2.544s,PASSED
+,,,,,,,
+Test Cases/admin_lihat_daftar_dealer,Chrome 118.0.0.0,,,2023-10-26 10:28:48,2023-10-26 10:29:08,19.759s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar dealer kendaraan/button_Daftar Dealer Kendaraan""))",Chrome 118.0.0.0,,,2023-10-26 10:28:52,2023-10-26 10:29:08,15.806s,PASSED
+,,,,,,,
+Test Cases/admin_search_dealer,Chrome 118.0.0.0,,,2023-10-26 10:29:08,2023-10-26 10:29:20,12.220s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar dealer kendaraan/button_Daftar Dealer Kendaraan""))",Chrome 118.0.0.0,,,2023-10-26 10:29:11,2023-10-26 10:29:14,3.039s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar warna kendaraan/input_search Daftar Dealer Kendaraan""))",Chrome 118.0.0.0,,,2023-10-26 10:29:14,2023-10-26 10:29:15,1.631s,PASSED
+"setText(findTestObject(""admin/kendaraan/daftar warna kendaraan/input_search Daftar Dealer Kendaraan""), ""h"")",Chrome 118.0.0.0,,,2023-10-26 10:29:15,2023-10-26 10:29:20,4.580s,PASSED
+,,,,,,,
+Test Cases/admin_tambah_dealer,Chrome 118.0.0.0,,,2023-10-26 10:29:20,2023-10-26 10:31:05,1m - 45.303s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar dealer kendaraan/button_Daftar Dealer Kendaraan""))",Chrome 118.0.0.0,,,2023-10-26 10:29:23,2023-10-26 10:29:25,2.424s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar dealer kendaraan/button_Tambah Dealer Penjualan Kendaraan""))",Chrome 118.0.0.0,,,2023-10-26 10:29:25,2023-10-26 10:29:28,2.898s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar dealer kendaraan/input_Tambah Dealer Penjualan Kendaraan""))",Chrome 118.0.0.0,,,2023-10-26 10:29:28,2023-10-26 10:30:01,32.817s,PASSED
+"setText(findTestObject(""admin/kendaraan/daftar dealer kendaraan/input_Tambah Dealer Penjualan Kendaraan""), ""Suzuki"")",Chrome 118.0.0.0,,,2023-10-26 10:30:01,2023-10-26 10:31:04,1m - 3.644s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar dealer kendaraan/button_Tambah Dealer Penjualan Kendaraan_Batal""))",Chrome 118.0.0.0,,,2023-10-26 10:31:04,2023-10-26 10:31:05,0.883s,PASSED
+,,,,,,,
+Test Cases/admin_edit_dealer,Chrome 118.0.0.0,,,2023-10-26 10:31:05,2023-10-26 10:31:42,36.709s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar dealer kendaraan/button_Daftar Dealer Kendaraan""))",Chrome 118.0.0.0,,,2023-10-26 10:31:07,2023-10-26 10:31:08,0.724s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar dealer kendaraan/button_edit dealer penjualan kendaraan""))",Chrome 118.0.0.0,,,2023-10-26 10:31:08,2023-10-26 10:31:08,0.817s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar dealer kendaraan/input_Edit Dealer Penjualan Kendaraan""))",Chrome 118.0.0.0,,,2023-10-26 10:31:08,2023-10-26 10:31:41,32.794s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar dealer kendaraan/button_Edit Dealer Penjualan Kendaraan_Batal""))",Chrome 118.0.0.0,,,2023-10-26 10:31:41,2023-10-26 10:31:42,0.858s,PASSED
+,,,,,,,
+Test Cases/admin_delete_dealer,Chrome 118.0.0.0,,,2023-10-26 10:31:42,2023-10-26 10:31:50,7.833s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar dealer kendaraan/button_Daftar Dealer Kendaraan""))",Chrome 118.0.0.0,,,2023-10-26 10:31:45,2023-10-26 10:31:47,2.119s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar dealer kendaraan/button_Hapus Dealer Penjualan Kendaraan""))",Chrome 118.0.0.0,,,2023-10-26 10:31:47,2023-10-26 10:31:49,1.384s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar dealer kendaraan/button_Hapus Dealer Penjualan Kendaraan_Batal""))",Chrome 118.0.0.0,,,2023-10-26 10:31:49,2023-10-26 10:31:50,1.269s,PASSED
+,,,,,,,
+Test Cases/logout_admin,Chrome 118.0.0.0,,,2023-10-26 10:31:50,2023-10-26 10:32:06,16.445s,PASSED
+"click(findTestObject(""admin/button_icon profile""))",Chrome 118.0.0.0,,,2023-10-26 10:31:53,2023-10-26 10:31:54,1.164s,PASSED
+delay(3),Chrome 118.0.0.0,,,2023-10-26 10:31:54,2023-10-26 10:31:57,3.257s,PASSED
+"waitForElementPresent(findTestObject(""admin/button_Log Out""), 3)",Chrome 118.0.0.0,,,2023-10-26 10:31:57,2023-10-26 10:31:58,0.902s,PASSED
+"waitForElementClickable(findTestObject(""admin/button_Log Out""), 3)",Chrome 118.0.0.0,,,2023-10-26 10:31:58,2023-10-26 10:32:00,1.382s,PASSED
+"click(findTestObject(""admin/button_Log Out""))",Chrome 118.0.0.0,,,2023-10-26 10:32:00,2023-10-26 10:32:06,6.748s,PASSED

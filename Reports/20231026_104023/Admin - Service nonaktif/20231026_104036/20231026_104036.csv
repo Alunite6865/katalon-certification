@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Admin - Service nonaktif,Chrome 118.0.0.0,,,2023-10-26 10:41:12,2023-10-26 10:43:39,2m - 26.626s,PASSED
+,,,,,,,
+Test Cases/login_admin,Chrome 118.0.0.0,,,2023-10-26 10:41:14,2023-10-26 10:41:48,33.682s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-26 10:41:18,2023-10-26 10:41:38,20.021s,PASSED
+maximizeWindow(),Chrome 118.0.0.0,,,2023-10-26 10:41:38,2023-10-26 10:41:39,0.616s,PASSED
+"navigateToUrl(""https://dms-dev.cloudias79.com/login"")",Chrome 118.0.0.0,,,2023-10-26 10:41:39,2023-10-26 10:41:42,3.941s,PASSED
+"setText(findTestObject(""Object Repository/input_Silakan masuk untuk melanjutkan_r0""), ""akunadmin"")",Chrome 118.0.0.0,,,2023-10-26 10:41:42,2023-10-26 10:41:45,2.471s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input__r1""), ""fzqqY0qJjYTuJiVJRZh4ag=="")",Chrome 118.0.0.0,,,2023-10-26 10:41:45,2023-10-26 10:41:47,1.818s,PASSED
+"click(findTestObject(""Object Repository/button_Login""))",Chrome 118.0.0.0,,,2023-10-26 10:41:47,2023-10-26 10:41:48,1.248s,PASSED
+,,,,,,,
+Test Cases/admin_service_nonaktifkan_batal,Chrome 118.0.0.0,,,2023-10-26 10:41:48,2023-10-26 10:42:36,47.509s,PASSED
+"callTestCase(findTestCase(""login_admin""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-26 10:41:52,2023-10-26 10:42:19,27.283s,PASSED
+"click(findTestObject(""admin/service/button_Service""))",Chrome 118.0.0.0,,,2023-10-26 10:42:19,2023-10-26 10:42:31,12.514s,PASSED
+"click(findTestObject(""admin/service/button_service_deactivate""))",Chrome 118.0.0.0,,,2023-10-26 10:42:31,2023-10-26 10:42:33,1.566s,PASSED
+"click(findTestObject(""admin/service/button_service_deactivate_Batal""))",Chrome 118.0.0.0,,,2023-10-26 10:42:33,2023-10-26 10:42:36,2.629s,PASSED
+,,,,,,,
+Test Cases/admin_service_nonaktifkan_berhasil,Chrome 118.0.0.0,,,2023-10-26 10:42:36,2023-10-26 10:43:39,1m - 3.241s,PASSED
+"callTestCase(findTestCase(""login_admin""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-26 10:42:37,2023-10-26 10:42:50,13.197s,PASSED
+"click(findTestObject(""admin/service/button_Service""))",Chrome 118.0.0.0,,,2023-10-26 10:42:50,2023-10-26 10:43:05,14.309s,PASSED
+"click(findTestObject(""admin/service/button_service_deactivate""))",Chrome 118.0.0.0,,,2023-10-26 10:43:05,2023-10-26 10:43:06,1.751s,PASSED
+"click(findTestObject(""admin/service/button_service_deactivate_Non-aktif""))",Chrome 118.0.0.0,,,2023-10-26 10:43:06,2023-10-26 10:43:39,32.476s,PASSED

@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/admin/kendaraan/daftar dealer kendaraan/input_Tambah Dealer Penjualan Kendaraan",
+      "brokenLocator": "//input[@id\u003d\u0027:ro:\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/div/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231025_145406/Dealer Kendaraan/20231025_145406/Object Repository/admin/kendaraan/daftar dealer kendaraan/input_Tambah Dealer Penjualan Kendaraan_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/admin/kendaraan/daftar dealer kendaraan/input_Edit Dealer Penjualan Kendaraan",
+      "brokenLocator": "//input[@id\u003d\u0027:rp:\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/div/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231025_145406/Dealer Kendaraan/20231025_145406/Object Repository/admin/kendaraan/daftar dealer kendaraan/input_Edit Dealer Penjualan Kendaraan_position.png"
+    }
+  ]
+}

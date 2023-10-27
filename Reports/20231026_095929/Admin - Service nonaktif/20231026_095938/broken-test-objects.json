@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/admin/service/button_service_deactivate_Non-aktif",
+      "brokenLocator": "//button[@id\u003d\u0027:rg:\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Batal\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231026_095929/Admin - Service nonaktif/20231026_095938/Object Repository/admin/service/button_service_deactivate_Non-aktif_neighbor.png"
+    }
+  ]
+}

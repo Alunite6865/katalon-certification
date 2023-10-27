@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Nomor Antrian,Chrome 118.0.0.0,,,2023-10-26 09:56:34,2023-10-26 09:57:45,1m - 10.671s,PASSED
+,,,,,,,
+Test Cases/ambil_antrian,Chrome 118.0.0.0,,,2023-10-26 09:56:37,2023-10-26 09:57:34,57.508s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-26 09:56:41,2023-10-26 09:56:59,17.901s,PASSED
+maximizeWindow(),Chrome 118.0.0.0,,,2023-10-26 09:56:59,2023-10-26 09:57:00,0.821s,PASSED
+"navigateToUrl(""https://dms-dev.cloudias79.com/customer"")",Chrome 118.0.0.0,,,2023-10-26 09:57:00,2023-10-26 09:57:09,9.458s,PASSED
+"setText(findTestObject(""no antrian/input_Ambil Antrian_nomorPolisi""), ""D5784ASD"")",Chrome 118.0.0.0,,,2023-10-26 09:57:09,2023-10-26 09:57:15,5.775s,PASSED
+"setText(findTestObject(""no antrian/input_Ambil Antrian_nama""), ""Astuti"")",Chrome 118.0.0.0,,,2023-10-26 09:57:15,2023-10-26 09:57:28,13.028s,PASSED
+"click(findTestObject(""no antrian/button_Ambil Nomor Antrian""))",Chrome 118.0.0.0,,,2023-10-26 09:57:28,2023-10-26 09:57:34,5.846s,PASSED
+,,,,,,,
+Test Cases/simpan_cetak_no_antrian,Chrome 118.0.0.0,,,2023-10-26 09:57:34,2023-10-26 09:57:45,10.581s,PASSED
+"click(findTestObject(""no antrian/button_Simpan  Cetak Nomor Antrian""))",Chrome 118.0.0.0,,,2023-10-26 09:57:41,2023-10-26 09:57:45,4.297s,PASSED

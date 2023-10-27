@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Warna Kendaraan,Chrome 118.0.0.0,,,2023-10-26 10:28:07,2023-10-26 10:36:44,8m - 37.332s,PASSED
+,,,,,,,
+Test Cases/login_admin,Chrome 118.0.0.0,,,2023-10-26 10:28:09,2023-10-26 10:28:50,41.562s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-26 10:28:13,2023-10-26 10:28:32,19.132s,PASSED
+maximizeWindow(),Chrome 118.0.0.0,,,2023-10-26 10:28:32,2023-10-26 10:28:32,0.334s,PASSED
+"navigateToUrl(""https://dms-dev.cloudias79.com/login"")",Chrome 118.0.0.0,,,2023-10-26 10:28:32,2023-10-26 10:28:40,7.196s,PASSED
+"setText(findTestObject(""Object Repository/input_Silakan masuk untuk melanjutkan_r0""), ""akunadmin"")",Chrome 118.0.0.0,,,2023-10-26 10:28:40,2023-10-26 10:28:44,4.799s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input__r1""), ""fzqqY0qJjYTuJiVJRZh4ag=="")",Chrome 118.0.0.0,,,2023-10-26 10:28:44,2023-10-26 10:28:46,1.819s,PASSED
+"click(findTestObject(""Object Repository/button_Login""))",Chrome 118.0.0.0,,,2023-10-26 10:28:46,2023-10-26 10:28:50,4.003s,PASSED
+,,,,,,,
+Test Cases/admin_lihat_daftar_warna,Chrome 118.0.0.0,,,2023-10-26 10:28:50,2023-10-26 10:29:10,19.324s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar warna kendaraan/button_Daftar Warna Kendaraan""))",Chrome 118.0.0.0,,,2023-10-26 10:28:54,2023-10-26 10:29:10,15.971s,PASSED
+,,,,,,,
+Test Cases/admin_search_warna,Chrome 118.0.0.0,,,2023-10-26 10:29:10,2023-10-26 10:29:21,10.922s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar warna kendaraan/button_Daftar Warna Kendaraan""))",Chrome 118.0.0.0,,,2023-10-26 10:29:12,2023-10-26 10:29:14,2.453s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar warna kendaraan/input_search Daftar Dealer Kendaraan""))",Chrome 118.0.0.0,,,2023-10-26 10:29:14,2023-10-26 10:29:17,2.177s,PASSED
+"setText(findTestObject(""admin/kendaraan/daftar warna kendaraan/input_search Daftar Dealer Kendaraan""), ""h"")",Chrome 118.0.0.0,,,2023-10-26 10:29:17,2023-10-26 10:29:21,3.920s,PASSED
+,,,,,,,
+Test Cases/admin_tambah_warna,Chrome 118.0.0.0,,,2023-10-26 10:29:21,2023-10-26 10:33:14,3m - 52.929s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar warna kendaraan/button_Daftar Warna Kendaraan""))",Chrome 118.0.0.0,,,2023-10-26 10:29:24,2023-10-26 10:29:26,2.428s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar warna kendaraan/button_Tambah Warna Kendaraan""))",Chrome 118.0.0.0,,,2023-10-26 10:29:26,2023-10-26 10:29:29,2.554s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar warna kendaraan/input_Tambah Warna Kendaraan_Kode Warna""))",Chrome 118.0.0.0,,,2023-10-26 10:29:29,2023-10-26 10:30:01,32.530s,PASSED
+"setText(findTestObject(""admin/kendaraan/daftar warna kendaraan/input_Tambah Warna Kendaraan_Kode Warna""), ""AQ"")",Chrome 118.0.0.0,,,2023-10-26 10:30:01,2023-10-26 10:31:05,1m - 3.801s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar warna kendaraan/input_Tambah Warna Kendaraan_Warna Kendaraan""))",Chrome 118.0.0.0,,,2023-10-26 10:31:05,2023-10-26 10:31:38,32.690s,PASSED
+"setText(findTestObject(""admin/kendaraan/daftar warna kendaraan/input_Tambah Warna Kendaraan_Warna Kendaraan""), ""Aquamarine"")",Chrome 118.0.0.0,,,2023-10-26 10:31:38,2023-10-26 10:32:41,1m - 3.564s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar warna kendaraan/button_Tambah Warna Kendaraan_Batal""))",Chrome 118.0.0.0,,,2023-10-26 10:32:41,2023-10-26 10:33:14,32.111s,PASSED
+,,,,,,,
+Test Cases/admin_edit_warna,Chrome 118.0.0.0,,,2023-10-26 10:33:14,2023-10-26 10:36:28,3m - 14.859s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar warna kendaraan/button_Daftar Warna Kendaraan""))",Chrome 118.0.0.0,,,2023-10-26 10:33:15,2023-10-26 10:33:16,0.811s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar warna kendaraan/button_Edit warna kendaraan""))",Chrome 118.0.0.0,,,2023-10-26 10:33:16,2023-10-26 10:33:16,0.766s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar warna kendaraan/input_Edit Warna Kendaraan_kode warna""))",Chrome 118.0.0.0,,,2023-10-26 10:33:16,2023-10-26 10:33:49,32.284s,PASSED
+"setText(findTestObject(""admin/kendaraan/daftar warna kendaraan/input_Edit Warna Kendaraan_kode warna""), ""CY"")",Chrome 118.0.0.0,,,2023-10-26 10:33:49,2023-10-26 10:34:52,1m - 3.622s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar warna kendaraan/input_Edit Warna Kendaraan_warna kendaraan""))",Chrome 118.0.0.0,,,2023-10-26 10:34:52,2023-10-26 10:35:24,31.773s,PASSED
+"setText(findTestObject(""admin/kendaraan/daftar warna kendaraan/input_Edit Warna Kendaraan_warna kendaraan""), ""Cyan"")",Chrome 118.0.0.0,,,2023-10-26 10:35:24,2023-10-26 10:36:28,1m - 3.623s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar warna kendaraan/button_Edit Warna Kendaraan_Batal""))",Chrome 118.0.0.0,,,2023-10-26 10:36:28,2023-10-26 10:36:28,0.786s,PASSED
+,,,,,,,
+Test Cases/admin_delete_warna,Chrome 118.0.0.0,,,2023-10-26 10:36:28,2023-10-26 10:36:34,5.618s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar warna kendaraan/button_Daftar Warna Kendaraan""))",Chrome 118.0.0.0,,,2023-10-26 10:36:31,2023-10-26 10:36:31,0.692s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar warna kendaraan/button_hapus warna kendaraan""))",Chrome 118.0.0.0,,,2023-10-26 10:36:31,2023-10-26 10:36:33,1.683s,PASSED
+"click(findTestObject(""admin/kendaraan/daftar warna kendaraan/button_hapus warna kendaraan_Batal""))",Chrome 118.0.0.0,,,2023-10-26 10:36:33,2023-10-26 10:36:34,1.051s,PASSED
+,,,,,,,
+Test Cases/logout_admin,Chrome 118.0.0.0,,,2023-10-26 10:36:34,2023-10-26 10:36:44,9.775s,PASSED
+"click(findTestObject(""admin/button_icon profile""))",Chrome 118.0.0.0,,,2023-10-26 10:36:36,2023-10-26 10:36:36,0.616s,PASSED
+delay(3),Chrome 118.0.0.0,,,2023-10-26 10:36:36,2023-10-26 10:36:40,3.086s,PASSED
+"waitForElementPresent(findTestObject(""admin/button_Log Out""), 3)",Chrome 118.0.0.0,,,2023-10-26 10:36:40,2023-10-26 10:36:40,0.473s,PASSED
+"waitForElementClickable(findTestObject(""admin/button_Log Out""), 3)",Chrome 118.0.0.0,,,2023-10-26 10:36:40,2023-10-26 10:36:41,0.935s,PASSED
+"click(findTestObject(""admin/button_Log Out""))",Chrome 118.0.0.0,,,2023-10-26 10:36:41,2023-10-26 10:36:44,2.896s,PASSED
