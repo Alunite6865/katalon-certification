@@ -31,5 +31,5 @@ WebUI.click(findTestObject('Page_DMS_login/button_Login'))
 
 WebUI.delay(5)
 
-WebUI.takeScreenshotAsCheckpoint('')
+WebUI.takeScreenshotAsCheckpoint('current_viewport')
 
