@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_Admin,Chrome 118.0.0.0,,,2023-10-30 13:27:14,2023-10-30 13:29:54,2m - 40.055s,FAILED
+,,,,,,,
+Test Cases/login_admin,Chrome 118.0.0.0,,,2023-10-30 13:28:58,2023-10-30 13:29:27,29.706s,FAILED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-30 13:28:58,2023-10-30 13:29:05,6.817s,PASSED
+maximizeWindow(),Chrome 118.0.0.0,,,2023-10-30 13:29:05,2023-10-30 13:29:05,0.294s,PASSED
+"navigateToUrl(""https://dms-dev.cloudias79.com/login"")",Chrome 118.0.0.0,,,2023-10-30 13:29:05,2023-10-30 13:29:09,4.283s,PASSED
+"setText(findTestObject(""Object Repository/input_Silakan masuk untuk melanjutkan_r0""), ""akunadmin"")",Chrome 118.0.0.0,,,2023-10-30 13:29:09,2023-10-30 13:29:13,3.375s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input__r1""), ""fzqqY0qJjYTuJiVJRZh4ag=="")",Chrome 118.0.0.0,,,2023-10-30 13:29:13,2023-10-30 13:29:16,3.621s,PASSED
+"click(findTestObject(""Object Repository/button_Login""))",Chrome 118.0.0.0,,,2023-10-30 13:29:16,2023-10-30 13:29:17,1.050s,PASSED
+delay(5),Chrome 118.0.0.0,,,2023-10-30 13:29:17,2023-10-30 13:29:22,5.010s,PASSED
+"takeScreenshotAsCheckpoint(""https://dms-dev.cloudias79.com/admin/dashboard/daftar-tipe-kendaraan"")",Chrome 118.0.0.0,,,2023-10-30 13:29:22,2023-10-30 13:29:27,5.214s,FAILED
+,,,,,,,
+Test Cases/logout_admin,Chrome 118.0.0.0,,,2023-10-30 13:29:27,2023-10-30 13:29:54,26.284s,PASSED
+"click(findTestObject(""admin/button_icon profile""))",Chrome 118.0.0.0,,,2023-10-30 13:29:32,2023-10-30 13:29:34,2.243s,PASSED
+delay(3),Chrome 118.0.0.0,,,2023-10-30 13:29:34,2023-10-30 13:29:37,3.013s,PASSED
+"waitForElementPresent(findTestObject(""admin/button_Log Out""), 3)",Chrome 118.0.0.0,,,2023-10-30 13:29:37,2023-10-30 13:29:38,0.994s,PASSED
+"waitForElementClickable(findTestObject(""admin/button_Log Out""), 3)",Chrome 118.0.0.0,,,2023-10-30 13:29:38,2023-10-30 13:29:41,2.875s,PASSED
+"click(findTestObject(""admin/button_Log Out""))",Chrome 118.0.0.0,,,2023-10-30 13:29:41,2023-10-30 13:29:54,12.943s,PASSED

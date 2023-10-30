@@ -29,3 +29,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/input__r1'), 'fzqqY0qJj
 
 WebUI.click(findTestObject('Object Repository/button_Login'))
 
+WebUI.delay(5)
+
+WebUI.takeScreenshotAsCheckpoint('current_viewport')
+

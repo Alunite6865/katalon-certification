@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_Counterpart,Chrome 118.0.0.0,,,2023-10-30 13:27:20,2023-10-30 13:30:11,2m - 50.964s,FAILED
+,,,,,,,
+Test Cases/login_counterpart,Chrome 118.0.0.0,,,2023-10-30 13:29:15,2023-10-30 13:29:44,29.007s,FAILED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-30 13:29:15,2023-10-30 13:29:22,7.194s,PASSED
+maximizeWindow(),Chrome 118.0.0.0,,,2023-10-30 13:29:22,2023-10-30 13:29:22,0.295s,PASSED
+"navigateToUrl(""https://dms-dev.cloudias79.com/login"")",Chrome 118.0.0.0,,,2023-10-30 13:29:22,2023-10-30 13:29:28,6.195s,PASSED
+"setText(findTestObject(""Page_DMS_login/input_login_username""), ""akuncounterpart"")",Chrome 118.0.0.0,,,2023-10-30 13:29:28,2023-10-30 13:29:31,2.707s,PASSED
+"setEncryptedText(findTestObject(""Page_DMS_login/input_login_password""), ""fzqqY0qJjYTuJiVJRZh4ag=="")",Chrome 118.0.0.0,,,2023-10-30 13:29:31,2023-10-30 13:29:33,1.873s,PASSED
+"click(findTestObject(""Page_DMS_login/button_Login""))",Chrome 118.0.0.0,,,2023-10-30 13:29:33,2023-10-30 13:29:35,1.683s,PASSED
+delay(5),Chrome 118.0.0.0,,,2023-10-30 13:29:35,2023-10-30 13:29:40,5.009s,PASSED
+"takeScreenshotAsCheckpoint(""https://dms-dev.cloudias79.com/counter-part/dashboard/counter-part"")",Chrome 118.0.0.0,,,2023-10-30 13:29:40,2023-10-30 13:29:44,3.991s,FAILED
+,,,,,,,
+Test Cases/logout_admin,Chrome 118.0.0.0,,,2023-10-30 13:29:44,2023-10-30 13:30:11,27.508s,PASSED
+"click(findTestObject(""admin/button_icon profile""))",Chrome 118.0.0.0,,,2023-10-30 13:29:51,2023-10-30 13:29:54,3.029s,PASSED
+delay(3),Chrome 118.0.0.0,,,2023-10-30 13:29:54,2023-10-30 13:29:57,3.008s,PASSED
+"waitForElementPresent(findTestObject(""admin/button_Log Out""), 3)",Chrome 118.0.0.0,,,2023-10-30 13:29:57,2023-10-30 13:29:58,0.836s,PASSED
+"waitForElementClickable(findTestObject(""admin/button_Log Out""), 3)",Chrome 118.0.0.0,,,2023-10-30 13:29:58,2023-10-30 13:29:59,1.140s,PASSED
+"click(findTestObject(""admin/button_Log Out""))",Chrome 118.0.0.0,,,2023-10-30 13:29:59,2023-10-30 13:30:11,11.876s,PASSED

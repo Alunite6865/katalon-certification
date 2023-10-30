@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_Admin,Chrome 118.0.0.0,,,2023-10-30 16:01:49,2023-10-30 16:06:49,4m - 59.390s,PASSED
+,,,,,,,
+Test Cases/login_admin,Chrome 118.0.0.0,,,2023-10-30 16:01:50,2023-10-30 16:03:30,1m - 40.046s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-30 16:01:51,2023-10-30 16:01:55,4.513s,PASSED
+maximizeWindow(),Chrome 118.0.0.0,,,2023-10-30 16:01:55,2023-10-30 16:01:56,0.248s,PASSED
+"navigateToUrl(""https://dms-dev.cloudias79.com/login"")",Chrome 118.0.0.0,,,2023-10-30 16:01:56,2023-10-30 16:03:18,1m - 22.092s,PASSED
+"setText(findTestObject(""Object Repository/input_Silakan masuk untuk melanjutkan_r0""), ""akunadmin"")",Chrome 118.0.0.0,,,2023-10-30 16:03:18,2023-10-30 16:03:19,1.216s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input__r1""), ""fzqqY0qJjYTuJiVJRZh4ag=="")",Chrome 118.0.0.0,,,2023-10-30 16:03:19,2023-10-30 16:03:20,0.732s,PASSED
+"click(findTestObject(""Object Repository/button_Login""))",Chrome 118.0.0.0,,,2023-10-30 16:03:20,2023-10-30 16:03:20,0.546s,PASSED
+delay(5),Chrome 118.0.0.0,,,2023-10-30 16:03:20,2023-10-30 16:03:25,5.079s,PASSED
+"takeScreenshotAsCheckpoint(""current_viewport"")",Chrome 118.0.0.0,,,2023-10-30 16:03:25,2023-10-30 16:03:30,4.697s,PASSED
+,,,,,,,
+Test Cases/logout_admin,Chrome 118.0.0.0,,,2023-10-30 16:03:30,2023-10-30 16:06:49,3m - 18.641s,PASSED
+"click(findTestObject(""admin/button_icon profile""))",Chrome 118.0.0.0,,,2023-10-30 16:03:31,2023-10-30 16:03:31,0.532s,PASSED
+delay(3),Chrome 118.0.0.0,,,2023-10-30 16:03:31,2023-10-30 16:03:34,3.016s,PASSED
+"waitForElementPresent(findTestObject(""admin/button_Log Out""), 3)",Chrome 118.0.0.0,,,2023-10-30 16:03:34,2023-10-30 16:03:35,0.453s,PASSED
+"waitForElementClickable(findTestObject(""admin/button_Log Out""), 3)",Chrome 118.0.0.0,,,2023-10-30 16:03:35,2023-10-30 16:03:35,0.664s,PASSED
+"click(findTestObject(""admin/button_Log Out""))",Chrome 118.0.0.0,,,2023-10-30 16:03:35,2023-10-30 16:06:49,3m - 13.237s,PASSED

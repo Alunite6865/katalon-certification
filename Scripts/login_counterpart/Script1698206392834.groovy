@@ -29,3 +29,7 @@ WebUI.setEncryptedText(findTestObject('Page_DMS_login/input_login_password'), 'f
 
 WebUI.click(findTestObject('Page_DMS_login/button_Login'))
 
+WebUI.delay(5)
+
+WebUI.takeScreenshotAsCheckpoint('https://dms-dev.cloudias79.com/counter-part/dashboard/counter-part')
+
